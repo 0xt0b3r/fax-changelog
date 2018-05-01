@@ -1,0 +1,80 @@
+/*-------------- CHANGELOG CSS SECTION -------------- */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#changelog{
+  display: none;
+}
+
+#changelog p.imp {
+	color: #fff;
+	font-size: 0.8em;
+	text-align: left;
+	margin: auto;
+	-webkit-font-smoothing: antialiased;
+}
+   
+#changelog .overlay{
+	position:fixed;
+	z-index: 1;    
+	width: 100%;					
+	height:100%;					
+	margin: 0;    					
+	text-align: center;
+	background: #000;				
+	opacity: 0.40; 									 
+}
+ 
+#changelog .contenair{
+	position:absolute;
+	z-index: 2;    
+	width: 1000px;									
+	height:700px;									
+	left:70%;										
+	top:40%;										
+	margin:-350px 0 0 -500px;    					
+	text-align: center;
+	/* background: url('img/bg-img.png'); */				
+	padding: none; 									
+    
+}
+	
+#changelog .innerbox{
+	z-index: 2;
+	width: 550px;	
+	margin: 0px 50px 0px 400px;  
+	text-align: left;
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+}
+	
+#changelog .spacer{
+	z-index: 2;
+	width: 100%;
+	height: 120px;
+	left:70%;										
+	top:50%;
+	margin: 0;  
+	text-align: left;
+  background: transparent;	
+}
+
+#changelog .footspacer{
+	z-index: 2;
+	width: 100%;
+	height: 80px;
+  margin: 0;  
+	text-align: left;
+  background: transparent;	
+}
+	
+#changelog .footerbox{
+  z-index: 2;
+  width: 450px;	
+  margin: 80px 0px 0px 480px;
+  height: 110px;
+  text-align: left; 
+}
